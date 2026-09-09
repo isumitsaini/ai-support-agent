@@ -1,0 +1,1293 @@
+{
+  "system": "trivial",
+  "n_examples": 200,
+  "classification": {
+    "accuracy": 0.255,
+    "macro_f1": 0.03694313654473017,
+    "per_class": {
+      "order_status_delivery": {
+        "precision": 0.255,
+        "recall": 1.0,
+        "f1": 0.4063745019920319,
+        "support": 51
+      },
+      "refund_or_return": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 21
+      },
+      "damaged_or_wrong_item": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 12
+      },
+      "cancel_order": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 5
+      },
+      "account_access": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "payment_billing": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 9
+      },
+      "prime_membership": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      },
+      "digital_content_technical": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 13
+      },
+      "service_complaint_escalation": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 30
+      },
+      "positive_feedback": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 9
+      },
+      "other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 42
+      }
+    }
+  },
+  "escalation": {
+    "accuracy": 0.51,
+    "precision": 0.0,
+    "recall_on_should_escalate": 0.0,
+    "missed_escalations": 98,
+    "unnecessary_escalations": 0,
+    "confusion": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 102,
+      "fn": 98
+    }
+  },
+  "avg_latency_sec": 4.863739013671875e-07,
+  "quality_scores": [],
+  "predictions": [
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 1.0,
+      "draft_reply": "Thanks for reaching out! We're looking into this for you - please DM your order details so we can help further.",
+      "escalate": false
+    }
+  ]
+}

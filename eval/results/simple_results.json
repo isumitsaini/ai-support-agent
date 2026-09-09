@@ -1,0 +1,1293 @@
+{
+  "system": "simple",
+  "n_examples": 200,
+  "classification": {
+    "accuracy": 0.465,
+    "macro_f1": 0.4012597813457296,
+    "per_class": {
+      "order_status_delivery": {
+        "precision": 0.5789473684210527,
+        "recall": 0.43137254901960786,
+        "f1": 0.4943820224719101,
+        "support": 51
+      },
+      "refund_or_return": {
+        "precision": 0.7894736842105263,
+        "recall": 0.7142857142857143,
+        "f1": 0.7500000000000001,
+        "support": 21
+      },
+      "damaged_or_wrong_item": {
+        "precision": 1.0,
+        "recall": 0.08333333333333333,
+        "f1": 0.15384615384615385,
+        "support": 12
+      },
+      "cancel_order": {
+        "precision": 0.3333333333333333,
+        "recall": 0.2,
+        "f1": 0.25,
+        "support": 5
+      },
+      "account_access": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "support": 6
+      },
+      "payment_billing": {
+        "precision": 0.5,
+        "recall": 0.1111111111111111,
+        "f1": 0.1818181818181818,
+        "support": 9
+      },
+      "prime_membership": {
+        "precision": 0.1111111111111111,
+        "recall": 0.5,
+        "f1": 0.1818181818181818,
+        "support": 2
+      },
+      "digital_content_technical": {
+        "precision": 0.6666666666666666,
+        "recall": 0.46153846153846156,
+        "f1": 0.5454545454545455,
+        "support": 13
+      },
+      "service_complaint_escalation": {
+        "precision": 0.625,
+        "recall": 0.16666666666666666,
+        "f1": 0.2631578947368421,
+        "support": 30
+      },
+      "positive_feedback": {
+        "precision": 0.4444444444444444,
+        "recall": 0.4444444444444444,
+        "f1": 0.4444444444444444,
+        "support": 9
+      },
+      "other": {
+        "precision": 0.3434343434343434,
+        "recall": 0.8095238095238095,
+        "f1": 0.48226950354609927,
+        "support": 42
+      }
+    }
+  },
+  "escalation": {
+    "accuracy": 0.525,
+    "precision": 0.512396694214876,
+    "recall_on_should_escalate": 0.6326530612244898,
+    "missed_escalations": 36,
+    "unnecessary_escalations": 59,
+    "confusion": {
+      "tp": 62,
+      "fp": 59,
+      "tn": 43,
+      "fn": 36
+    }
+  },
+  "avg_latency_sec": 2.8597116470336912e-05,
+  "quality_scores": [],
+  "predictions": [
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "prime_membership",
+      "confidence": 0.5,
+      "draft_reply": "Happy to help with your Prime membership - please DM any account-specific details.",
+      "escalate": false
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "positive_feedback",
+      "confidence": 0.5,
+      "draft_reply": "Thank you so much for letting us know - glad we could help!",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "positive_feedback",
+      "confidence": 0.5,
+      "draft_reply": "Thank you so much for letting us know - glad we could help!",
+      "escalate": false
+    },
+    {
+      "intent": "prime_membership",
+      "confidence": 0.5,
+      "draft_reply": "Happy to help with your Prime membership - please DM any account-specific details.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "positive_feedback",
+      "confidence": 0.5,
+      "draft_reply": "Thank you so much for letting us know - glad we could help!",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "account_access",
+      "confidence": 0.5,
+      "draft_reply": "For account security we can't assist with login issues here - please use the 'Forgot password' link or DM us to verify your identity.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "digital_content_technical",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Try restarting the app/device first - if that doesn't help, DM us and we'll dig deeper.",
+      "escalate": false
+    },
+    {
+      "intent": "prime_membership",
+      "confidence": 0.5,
+      "draft_reply": "Happy to help with your Prime membership - please DM any account-specific details.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "damaged_or_wrong_item",
+      "confidence": 0.5,
+      "draft_reply": "So sorry to hear that! Please DM us photos and your order number so we can make this right.",
+      "escalate": false
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "prime_membership",
+      "confidence": 0.5,
+      "draft_reply": "Happy to help with your Prime membership - please DM any account-specific details.",
+      "escalate": true
+    },
+    {
+      "intent": "service_complaint_escalation",
+      "confidence": 0.5,
+      "draft_reply": "We're sorry to hear this and want to make it right. Please DM us so we can connect you with the right team.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "account_access",
+      "confidence": 0.5,
+      "draft_reply": "For account security we can't assist with login issues here - please use the 'Forgot password' link or DM us to verify your identity.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "prime_membership",
+      "confidence": 0.5,
+      "draft_reply": "Happy to help with your Prime membership - please DM any account-specific details.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "cancel_order",
+      "confidence": 0.5,
+      "draft_reply": "We can help with that. Please DM your order number so we can check the cancellation window.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "service_complaint_escalation",
+      "confidence": 0.5,
+      "draft_reply": "We're sorry to hear this and want to make it right. Please DM us so we can connect you with the right team.",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "service_complaint_escalation",
+      "confidence": 0.5,
+      "draft_reply": "We're sorry to hear this and want to make it right. Please DM us so we can connect you with the right team.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "service_complaint_escalation",
+      "confidence": 0.5,
+      "draft_reply": "We're sorry to hear this and want to make it right. Please DM us so we can connect you with the right team.",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "positive_feedback",
+      "confidence": 0.5,
+      "draft_reply": "Thank you so much for letting us know - glad we could help!",
+      "escalate": false
+    },
+    {
+      "intent": "positive_feedback",
+      "confidence": 0.5,
+      "draft_reply": "Thank you so much for letting us know - glad we could help!",
+      "escalate": false
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "account_access",
+      "confidence": 0.5,
+      "draft_reply": "For account security we can't assist with login issues here - please use the 'Forgot password' link or DM us to verify your identity.",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "prime_membership",
+      "confidence": 0.5,
+      "draft_reply": "Happy to help with your Prime membership - please DM any account-specific details.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "digital_content_technical",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Try restarting the app/device first - if that doesn't help, DM us and we'll dig deeper.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "digital_content_technical",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Try restarting the app/device first - if that doesn't help, DM us and we'll dig deeper.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "cancel_order",
+      "confidence": 0.5,
+      "draft_reply": "We can help with that. Please DM your order number so we can check the cancellation window.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "digital_content_technical",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Try restarting the app/device first - if that doesn't help, DM us and we'll dig deeper.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "service_complaint_escalation",
+      "confidence": 0.5,
+      "draft_reply": "We're sorry to hear this and want to make it right. Please DM us so we can connect you with the right team.",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "positive_feedback",
+      "confidence": 0.5,
+      "draft_reply": "Thank you so much for letting us know - glad we could help!",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "positive_feedback",
+      "confidence": 0.5,
+      "draft_reply": "Thank you so much for letting us know - glad we could help!",
+      "escalate": false
+    },
+    {
+      "intent": "service_complaint_escalation",
+      "confidence": 0.5,
+      "draft_reply": "We're sorry to hear this and want to make it right. Please DM us so we can connect you with the right team.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "digital_content_technical",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Try restarting the app/device first - if that doesn't help, DM us and we'll dig deeper.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "service_complaint_escalation",
+      "confidence": 0.5,
+      "draft_reply": "We're sorry to hear this and want to make it right. Please DM us so we can connect you with the right team.",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "positive_feedback",
+      "confidence": 0.5,
+      "draft_reply": "Thank you so much for letting us know - glad we could help!",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "payment_billing",
+      "confidence": 0.5,
+      "draft_reply": "We understand this is concerning. Please DM your order number so our billing team can look into this specific charge.",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": true
+    },
+    {
+      "intent": "cancel_order",
+      "confidence": 0.5,
+      "draft_reply": "We can help with that. Please DM your order number so we can check the cancellation window.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "prime_membership",
+      "confidence": 0.5,
+      "draft_reply": "Happy to help with your Prime membership - please DM any account-specific details.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "digital_content_technical",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Try restarting the app/device first - if that doesn't help, DM us and we'll dig deeper.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "digital_content_technical",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Try restarting the app/device first - if that doesn't help, DM us and we'll dig deeper.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "positive_feedback",
+      "confidence": 0.5,
+      "draft_reply": "Thank you so much for letting us know - glad we could help!",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "prime_membership",
+      "confidence": 0.5,
+      "draft_reply": "Happy to help with your Prime membership - please DM any account-specific details.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "prime_membership",
+      "confidence": 0.5,
+      "draft_reply": "Happy to help with your Prime membership - please DM any account-specific details.",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "service_complaint_escalation",
+      "confidence": 0.5,
+      "draft_reply": "We're sorry to hear this and want to make it right. Please DM us so we can connect you with the right team.",
+      "escalate": true
+    },
+    {
+      "intent": "digital_content_technical",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Try restarting the app/device first - if that doesn't help, DM us and we'll dig deeper.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "payment_billing",
+      "confidence": 0.5,
+      "draft_reply": "We understand this is concerning. Please DM your order number so our billing team can look into this specific charge.",
+      "escalate": true
+    },
+    {
+      "intent": "refund_or_return",
+      "confidence": 0.5,
+      "draft_reply": "We're happy to help with that. Please DM your order number so we can look into your refund/return.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "order_status_delivery",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Please share your order number via DM so we can check the delivery status for you.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    },
+    {
+      "intent": "digital_content_technical",
+      "confidence": 0.5,
+      "draft_reply": "Sorry for the trouble! Try restarting the app/device first - if that doesn't help, DM us and we'll dig deeper.",
+      "escalate": false
+    },
+    {
+      "intent": "other",
+      "confidence": 0.5,
+      "draft_reply": "Thanks for reaching out - could you share a bit more detail so we can help?",
+      "escalate": true
+    }
+  ]
+}
